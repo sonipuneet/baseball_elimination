@@ -1,8 +1,15 @@
+/* Program for Baseball Elimination
+ * 
+ * Algorithms Programming Assignment
+ *  
+ * Author - Puneet Soni
+ * */
+
 import java.util.HashMap;
 import java.util.Iterator;
 
 public class BaseballElimination {
-	private int numTeams;
+	private int numTeams;				// Number of teams, input value given in the file at the top.
 	private HashMap<String, Integer[]> teams;
 	private HashMap<Integer, String> teamNumbers;
 	private int[][] against;
